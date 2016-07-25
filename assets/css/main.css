@@ -1,0 +1,76 @@
+/* CSS Document */
+/*  Bootstrap Styles */
+
+
+#front-page {
+    background-image: url("../images/leaf0.gif");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default {
+    background-color: #000;
+    background-image: none;
+    padding: 25px;
+}
+
+.navbar .navbar-default{
+
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 800;
+    color: #000;
+}
+
+.navbar-default .navbar-brand{
+    color: #fff;
+}
+
+.navbar li {
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+}
+
+.wrap {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bg {
+    width: 55%;
+    height: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../images/leaf.gif') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.wrap {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg2 {
+    width: 60%;
+    height: 10%;
+    position: absolute;
+    top: 50em;
+    right: 0;
+    z-index: -1;
+    background: url('../images/leaf-glitched6.png') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.4);
+}
+
